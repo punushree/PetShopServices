@@ -1,0 +1,39 @@
+/* Navbar */
+.navbar-nav a{
+  font-size: 18px;
+}
+
+.heading {
+  color: black;
+}
+
+/* Home */
+.HomeHeadingContainer {
+ margin-top: 50px;
+  
+
+}
+
+.homeBtn{
+  background-color: yellow;
+  border-radius: 20px;
+  border-width: 0ch;
+  height: 40px;
+  width: 90px;
+}
+
+.homeBtnContainer{
+  margin-left: 190px;
+  margin-top: 40px;
+}
+
+.contentContainer{
+  background-color: aqua;
+  height: 200px;
+}
+
+/* Products */
+
+.productContainer{
+  height: 600px;
+}
