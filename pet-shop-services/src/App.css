@@ -1,3 +1,6 @@
+
+
+
 /* Navbar */
 .navbar-nav a{
   font-size: 18px;
@@ -8,6 +11,8 @@
 }
 
 /* Home */
+
+
 .HomeHeadingContainer {
  margin-top: 50px;
   
@@ -32,8 +37,111 @@
   height: 200px;
 }
 
+/* Testaments */
+
+.testamentContainer{
+  background-color: #0E185F;
+  height: 460px;
+  padding: 40px;;
+}
+
+.cardBody{
+  height: 340px;
+  width: 260px;
+  border-radius: 60px;
+  border-top-left-radius: 60px;
+  background-color: #C7D2FE66;
+  z-index: 1;
+  position: relative;
+  backdrop-filter: blur(10px);
+  background-clip: border-box;
+  cursor: pointer;
+  /* -webkit-box-shadow: 9px 9px 13px -2px rgba(117,117,117,0.73); 
+   box-shadow: 9px 9px 13px -2px rgba(117,117,117,0.73); */
+}
+
+.imageContainer{
+  height: 70px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 30px;
+
+
+}
+.cardContent{
+ 
+  height: 130px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.title{
+  font-size: 28px;
+  padding: 20px;
+}
+.h4heading{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+/* Categories */
+
+.headingContainer{
+  align-items: center;
+  justify-self: center
+}
+
+.mainHeading{
+  color: white;
+  padding: 10px;
+  margin-left: 500px;
+}
+
+.categoriesContainer{
+  background-color: #0E185F;
+  height: 460px;
+  padding: 40px;;
+}
+
+.categoryCardBody{
+  height: 220px;
+  width: 350px;
+  border-radius: 20px;
+  background-color: white;
+   margin-top: 20px;
+  -webkit-box-shadow: 9px 9px 13px -2px rgba(28, 28, 28, 0.73); 
+   box-shadow: 9px 9px 13px -2px rgba(33, 33, 33, 0.73);
+   cursor: pointer;
+}
+
 /* Products */
 
-.productContainer{
+.productsContainer{
+  background-color: white;
   height: 600px;
+  padding: 40px;
+  
+}
+.productContentContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.productMainImage{
+  width: 300px;
+  border-radius: 30px;
+}
+
+.carouselCont{
+  background-color: #0E185F;
+  height: 400px;
+  margin-top: 60px;
+  color: aliceblue;
+}
+
+
+.carouselContainer{
+  width: 800px;
 }
