@@ -2,21 +2,22 @@ import './App.css';
 import Categories from './components/Categories';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Testaments from './components/Testaments';
+import Testimonial from './components/Testimonial';
 import Products from './components/Products';
-import Blogs from './components/Blogs';
+import AboutUs from './components/AboutUs';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Home />
+      <Products />
+      <AboutUs />
       <Categories />
-      <Products />
-      <Testaments />
-      <Products />
-      <Blogs />
+      <Testimonial />
+      {/* <Products />
+      <Testaments /> */}
     </div>
   );
 }
