@@ -6,9 +6,9 @@ const Testimonial = () => {
     <div className='testimonialSection'>
     <div className='testimonialContainer'>
       <div className='testimonialContent-section'>
-        <div className='title'>Know More About Us</div>
+        <div className='title'>Our Latest Blog</div>
         <div className='aboutContent'>
-          <h3 className='aboutHeading'>Lorem Ipsum has been the industry's standard dummy text ever since</h3>
+          <h3 className='aboutHeading'>Lorem Ipsum</h3>
           <p>Lorem Ipsum has been the industry's standard dummy text ever since <br /> when an unknown printer took a galley of type and scrambled it <br /> to make a type specimen book. It has survived not only five centuries, </p>
           <p>Lorem Ipsum has been the industry's standard dummy text ever since <br /> when an unknown printer took a galley of type and scrambled it <br /> to make a type specimen book. It has survived not only five centuries, </p>
           <p>Lorem Ipsum has been the industry's standard dummy text ever since <br /> when an unknown printer took a galley of type and scrambled it <br /> to make a type specimen book. It has survived not only five centuries, </p>

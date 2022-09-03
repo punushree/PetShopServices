@@ -2,29 +2,46 @@ import React from 'react';
 
 const Categories = () => {
     return (
-        <div className="categorySection">
+        <div className="categorySection text-center" id='categories'>
+          <h1>What Do We Offer?</h1>
           <div className='categoryContainer'>
             <div className='categoryContent-section'>
              <div className='categoryCardContainer'>
               <div className='categoryCard'>
-              <p className='productTextContainer'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore </p>
+                <div className='productTextContainer'>
+                  <h2>Massages</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore </p>
+                <button type="button" class="btn btn-outline-info aboutBtn">Explore</button>
+                </div>
+             
               </div>
               <div className='categoryCard'>
-              <img src="./assests/catImg.jpg" className="productImageContainer" alt="background"/>
+                <div  className="productImageContainer">
+                
+                </div>
+             
               </div>
               <div className='categoryCard'>
-              <p className='productTextContainerTwo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore </p>
+              <div className='productTextContainerTwo'>
+                  <h2>Massages</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore </p>
+                <button type="button" class="btn btn-outline-info aboutBtn">Explore</button>
+                </div>
               </div>
              </div>
              <div className='categoryCardContainer'>
               <div className='categoryCard'>
-              <img src="./assests/dogBackground.jpg" className="productImageContainer" alt="background"/>
+              <div  className="productImageContainerTwo"> </div>
               </div>
               <div className='categoryCard'>
-              <p className='productTextContainerThree'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore sed do eiusmod tempor incididunt ut labore et dolore</p>
+              <div className='productTextContainerThree'>
+                  <h2>Massages</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore  sed do eiusmod tempor incididunt ut labore et dolore </p>
+                <button type="button" class="btn btn-outline-info aboutBtn">Explore</button>
+                </div>
               </div>
               <div className='categoryCard'>
-              <img src="./assests/birdImg.jpg" className="productImageContainer" alt="background"/>
+              <div  className="productImageContainerThree"> </div>
               </div>
              </div>
           

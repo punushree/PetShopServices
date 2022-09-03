@@ -5,13 +5,13 @@ import Navbar from "./Navbar";
 
 const Home = () => {
   return (
-    <div className="hero homeContainer">
+    <div className="hero homeContainer" id="home">
       <Navbar />
    <div className="homeHeadingContainer">
-    <h1 className="homeHeading">Your Best friend <br /> deserves best stuff</h1>
-    <h4 className="homeContent">It was popularised in the 1960s with the release of Letraset sheets containing </h4>
+    <h1 className="homeHeading">Your Best friend <br /> deserves a time off too</h1>
+    <h4 className="homeContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h4>
     <button className="homeBtn">
-        Shop Now
+       Explore
     </button>
     </div>
     </div>
