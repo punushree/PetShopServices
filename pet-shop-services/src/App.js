@@ -1,14 +1,12 @@
-import './App.css';
-import Pages from './components/Pages';
-
-
-
+import React from "react";
+import "./App.css";
+import Pages from "./components/Pages";
 
 function App() {
   return (
-  <div className='App'>
-    <Pages />
-  </div>
+    <div className="App">
+      <Pages />
+    </div>
   );
 }
 
